@@ -1,0 +1,6 @@
+rabbitmq
+rabbitmq.conf
+.idea
+.vscode
+**/bin
+**/obj
