@@ -6,5 +6,9 @@ services:
       - "5672:5672"
       - "5671:5671"
     volumes:
-      - ./rabbitmq:/var/lib/rabbitmq
-      - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+      - rabbitmq_data:/var/lib/rabbitmq
+      - rabbitmq_config:/etc/rabbitmq/rabbitmq.conf
+
+volumes:
+  rabbitmq_data:
+  rabbitmq_config:

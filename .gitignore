@@ -4,3 +4,4 @@ rabbitmq.conf
 .vscode
 **/bin
 **/obj
+**/venv
